@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>AgrivoltaicSolarPanel</defName>
+    <label>agrivoltaic solar panel</label>
+    <description>Produces electricity from sunlight. This building can be built above crops, letting the light be shared between the crops and the panel.</description>
+    <thingClass>Building</thingClass>
+    <uiIconPath>AgrivoltaicSolarPanel_UI</uiIconPath>
+    <!-- <uiIconScale>0.2</uiIconScale> -->
+    <graphicData>
+      <texPath>AgrivoltaicSolarPanel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <canOverlapZones>true</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>0.7</Flammability>
+      <Mass>25</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <placeWorkers>
+      <li>AgrivoltaicSolarPanel.PlaceWorker_NotNearAnotherTallBuilding</li>
+    </placeWorkers>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>AgrivoltaicSolarPanel.AgrivoltaicSolarPanelComp</compClass>
+        <basePowerConsumption>-1</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <researchPrerequisites>
+      <li>SolarPanels</li>
+    </researchPrerequisites>
+    <constructEffect>ConstructMetal</constructEffect>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>
