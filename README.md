@@ -1,6 +1,6 @@
 # AgrivoltaicSolarPanels
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 
 This type of solar panel is possible to place over crops. The cost is a bit higher as they need to be placed on poles high over the crops. They are also a bit larger to represent the extra space they need to be able to share the solar energy.
@@ -11,7 +11,14 @@ For more info see the https://en.wikipedia.org/wiki/Agrivoltaic]Wiki on how it w
 
 Idea and graphic by HydromancerX
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/O0IIlYj.png)
+
+Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my https://store.steampowered.com/wishlist/id/Mlie]Wishlist or buy me a cup of tea.
+
+https://ko-fi.com/G2G55DDYD]![Image](https://i.imgur.com/Utx6OIH.png)
+
+
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -21,6 +28,7 @@ Idea and graphic by HydromancerX
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

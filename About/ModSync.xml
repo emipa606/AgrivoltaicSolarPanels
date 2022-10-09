@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>6c3d66a9-db77-41bf-8bcd-4d6d191d840e</ID>
   <ModName>Agrivoltaic Solar Panel</ModName>
-  <Version>1.0.1.0</Version>
+  <Version>1.4.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
