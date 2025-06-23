@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: agrivoltaic solar panel -->
+  <AgrivoltaicSolarPanel.label>agrivoltaic solar panel</AgrivoltaicSolarPanel.label>
+  <!-- EN: Produces electricity from sunlight. This building can be built above crops, letting the light be shared between the crops and the panel. -->
+  <AgrivoltaicSolarPanel.description>Produces electricity from sunlight. This building can be built above crops, letting the light be shared between the crops and the panel.</AgrivoltaicSolarPanel.description>
+</LanguageData>
