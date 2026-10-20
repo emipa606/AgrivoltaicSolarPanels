@@ -1,6 +1,8 @@
 ﻿using RimWorld;
 using Verse;
 
+namespace AgrivoltaicSolarPanel;
+
 [DefOf]
 public static class AgrivoltaicSolarPanelDefOf
 {
